@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+
+}
+header h1 {
+    /*Letra do titulo*/
+    font-size: 50px;
+    color: rgb(222, 222, 222);
+    padding: 10px 0 0 0;
+}
+header img {
+    height: 90px;
+    padding: 5px 34% 0 3%;
+}
+.main1 {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background2.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main2{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background2.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#titulo {
+    text-align: center;
+    height: 50px;
+}
+#caixacadastro form {
+    height: 00px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#caixalogin form{
+    height: 00px;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#card1 form input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #b3b3b35d;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: #e8e8e8;
+}
+#card1 #genero{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#genero input[type="radio"]{
+    position: relative;
+    top: 10px;
+}
+#card2 form input{
+    width: 70%;
+    padding: 4%;
+    border: 1px solid #b3b3b35d;
+    border-radius: 3px;
+    margin-bottom: -5%;
+    background-color: #333;
+    color: #e8e8e8;
+}
+input[type="submit"] {
+    background-color: rgb(217, 217, 217);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input [type="submit"]:hover {
+    background-color: aquamarine;
+}
+#card1{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    background-color: #ffffff;
+    padding: 30px 30px 0px 30px;
+    border-radius: 2%;
+    box-shadow: 7px 7px 7px 7px #00000065;
+    flex-direction: column;
+    background-color: #333;
+    color: #e8e8e8;
+}
+#card2{
+    width: 300px;
+    height: 450px;
+    display: flex;
+    background-color: #ffffff;
+    padding: 30px 30px 0px 30px;
+    border-radius: 2%;
+    box-shadow: 7px 7px 7px 7px #00000065;
+    flex-direction: column;
+    background-color: #333;
+    color: #e8e8e8;
+}
+.criarConta{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20%;
+    margin-top: 1%;
+}
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 3%;
+    cursor: pointer;
+    border: 1px solid #b3b3b35d;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+.footer-container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-links {
+    margin: 10px 0;
+}
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer-social a:hover {
+    text-decoration: underline;
+}
